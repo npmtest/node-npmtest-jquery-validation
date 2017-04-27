@@ -1,6 +1,6 @@
 # npmtest-jquery-validation
 
-#### test coverage for  [jquery-validation (v1.16.0)](http://jqueryvalidation.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-jquery-validation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jquery-validation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jquery-validation.svg)](https://travis-ci.org/npmtest/node-npmtest-jquery-validation)
+#### basic test coverage for  [jquery-validation (v1.16.0)](http://jqueryvalidation.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-jquery-validation.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jquery-validation) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jquery-validation.svg)](https://travis-ci.org/npmtest/node-npmtest-jquery-validation)
 
 #### Client-side form validation made easy
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jquery-validation/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jquery-validation/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jquery-validation/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jquery-validation/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jquery-validation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jquery-validation/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jquery-validation/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jquery-validation/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jquery-validation/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jquery-validation/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jquery-validation/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jquery-validation/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
         "test": "grunt"
     },
     "title": "jQuery Validation Plugin",
-    "version": "1.16.0"
+    "version": "1.16.0",
+    "bin": {}
 }
 ```
 
